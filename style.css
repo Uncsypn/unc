@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('Background.png');
     background-size: cover;
-    overflow: hidden;
+    filter: blur(250px);
 }
 
 .top-bar {
@@ -15,14 +15,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(26, 26, 26);
     padding: 10px 20px;
-    backdrop-filter: blur(70px);
-    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
 .left-side {
     font-weight: bold;
+    color: #fff;
 }
 
 .right-side {
@@ -32,7 +32,11 @@ body {
 .tab {
     margin-left: 10px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
+}
+
+.tab:hover {
+    text-decoration: underline;
 }
 
 .content {
