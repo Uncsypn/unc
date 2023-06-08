@@ -4,16 +4,21 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('Background.png');
     background-size: cover;
-    filter: blur(125px);
+    overflow: hidden;
 }
 
 .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px 20px;
     backdrop-filter: blur(70px);
+    z-index: 1;
 }
 
 .left-side {
@@ -32,6 +37,7 @@ body {
 
 .content {
     margin: 20px;
+    margin-top: 40px;
 }
 
 button {
