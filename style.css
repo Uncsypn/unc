@@ -75,10 +75,10 @@ button:hover {
 
 body::after {
     content: "";
-    background: url(background.gif);
+    background: url(Background.gif);
     background-size: 150%;
     opacity: 0.5;
-    filter: blur(8px);
+    filter: blur(150px);
     position: fixed;
     top: 0;
     left: 0;
