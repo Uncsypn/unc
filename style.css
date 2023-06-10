@@ -1,0 +1,35 @@
+body {
+  background-image: url(background.gif);
+  background-size: 125px;
+  backdrop-filter: blur(125px);
+}
+
+.home {
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.home .subtitle {
+  opacity: 0.7;
+}
+
+.glowing-button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.glowing-button:hover {
+  background-color: #333;
+}
+
+.glowing-button:active {
+  background-color: #666;
+}
