@@ -1,3 +1,2 @@
-document.querySelector('.glowing-button').addEventListener('click', function() {
-    window.location.href = 'download_tab.html';
-});
+// main.js
+// You can add any additional JavaScript code you need here
