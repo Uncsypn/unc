@@ -1,35 +1,20 @@
-/* style.css */
-
-body {
-    background-image: url("background.gif");
-    background-size: 125px;
-    backdrop-filter: blur(125px);
-    font-family: sans-serif; /* Replace with your desired font */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url('background.gif');
+  background-size: cover;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-.home-section, .home-tab-section, .download-tab-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
+h1 {
+  font-size: 32px;
+  margin-top: 50px;
 }
 
-button.glowing-button {
-    background-color: black;
-    color: white;
-    border-radius: 8px;
-    padding: 12px 24px;
-    font-size: 16px;
-    border: none;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-    transition: background-color 0.3s;
+p {
+  font-size: 18px;
+  margin-top: 20px;
 }
-
-button.glowing-button:hover,
-button.glowing-button:active {
-    background-color: #333;
-}
-
-/* Additional CSS styling for other elements can be added here */
